@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">
+        <font fgcolor="#CFB53B">Marcea</font>
+    </string>
+    <string name="send">
+        <font fgcolor="white">Send</font>
+    </string>
+    <string name="titlu_contact">Casa De Vinuri \n Formular de contact \n Completează toate câmpurile!</string>
+    <string name="titlu_main">DESCOPERA PODGORIA MARCEA \n Casa de Vinuri Stefanesti!</string>
+    <string name="continut_main">Casa de vinuri Ștefăneștic \n
+        MARCEA - O nouă \n
+        poveste în străvechea podgorie a Ștefăneștilor. \n
+
+        Pe cel mai înalt deal al Ștefăneștilor, zonă în care vinul este o tradiție milenară, se naște o nouă poveste a
+        viticulturii românești, unde modernul se îmbină cu tradiționalul.
+        25 de hectare de plantații tinere și o cramă cu tehnologie ultramodernă create să pună în valoare potențialul
+        uriaș al zonei viticole Ștefănești
+    </string>
+
+
+</resources>

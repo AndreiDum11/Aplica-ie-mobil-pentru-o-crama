@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Contact">
+
+
+    <TextView
+            android:id="@+id/insert_data_text_view"
+            android:layout_width="314dp"
+            android:layout_height="97dp"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:text="@string/titlu_contact"
+            android:textColor="@color/black"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="196dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="52dp" app:layout_constraintVertical_bias="0.042"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Nume"
+            android:ems="10"
+            android:id="@+id/edit_nume"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.497" app:layout_constraintVertical_bias="0.214"
+            android:minHeight="48dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Adresă de email"
+            android:ems="10"
+            android:id="@+id/edit_email"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.497" app:layout_constraintVertical_bias="0.322"
+            android:minHeight="48dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Subiect"
+            android:ems="10"
+            android:id="@+id/edit_subiect"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.497" app:layout_constraintVertical_bias="0.427"
+            android:minHeight="48dp"/>
+    <EditText
+            android:layout_width="208dp"
+            android:layout_height="143dp"
+            android:inputType="textMultiLine"
+            android:gravity="start|top"
+            android:ems="10"
+            android:hint="Mesaj"
+            android:id="@+id/edit_mesaj"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.492" app:layout_constraintVertical_bias="0.622"
+            android:minHeight="48dp"/>
+    <Button
+            android:text="@string/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_send"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.498" app:layout_constraintVertical_bias="0.792"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

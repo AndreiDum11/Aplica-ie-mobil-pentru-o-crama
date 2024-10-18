@@ -1,1 +1,1 @@
-"# Aplica-ie-mobil-pentru-o-crama" 
+"# Aplicatie-mobile-pentru-o-crama" 
